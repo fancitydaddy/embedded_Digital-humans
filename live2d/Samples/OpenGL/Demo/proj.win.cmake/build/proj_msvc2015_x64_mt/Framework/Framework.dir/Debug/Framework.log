@@ -1,0 +1,92 @@
+﻿生成启动时间为 2024/6/18 21:40:00。
+     1>项目“F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\Framework\Framework.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\visualstudio\VC\bin\x86_amd64\CL.exe /c /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src" /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\..\Core\include" /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\..\..\..\..\Samples\OpenGL\thirdParty\glew\include" /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\..\..\..\..\Core\include" /Zi /nologo /W1 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CSM_TARGET_WIN_GL /D GLEW_STATIC /D "CMAKE_INTDIR=\"Debug\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Framework.dir\Debug\\" /Fd"Framework.dir\Debug\Framework.pdb" /Gd /TP /errorReport:prompt "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\CubismCdiJson.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\CubismDefaultParameterId.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\CubismFramework.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\CubismModelSettingJson.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Effect\CubismBreath.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Effect\CubismEyeBlink.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Effect\CubismPose.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Id\CubismId.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Id\CubismIdManager.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Math\CubismMath.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Math\CubismMatrix44.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Math\CubismModelMatrix.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Math\CubismTargetPoint.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Math\CubismVector2.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Math\CubismViewMatrix.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Model\CubismMoc.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Model\CubismModel.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Model\CubismModelUserData.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Model\CubismModelUserDataJson.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Model\CubismUserModel.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Motion\ACubismMotion.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Motion\CubismExpressionMotion.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Motion\CubismExpressionMotionManager.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Motion\CubismMotion.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Motion\CubismMotionJson.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Motion\CubismMotionManager.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Motion\CubismMotionQueueEntry.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Motion\CubismMotionQueueManager.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Physics\CubismPhysics.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Physics\CubismPhysicsJson.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Rendering\CubismRenderer.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Rendering\OpenGL\CubismOffscreenSurface_OpenGLES2.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Rendering\OpenGL\CubismShader_OpenGLES2.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Rendering\OpenGL\CubismRenderer_OpenGLES2.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Type\csmRectF.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Type\csmString.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Utils\CubismDebug.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Utils\CubismJson.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src\Utils\CubismString.cpp"
+         CubismCdiJson.cpp
+         CubismDefaultParameterId.cpp
+         CubismFramework.cpp
+         CubismModelSettingJson.cpp
+         CubismBreath.cpp
+         CubismEyeBlink.cpp
+         CubismPose.cpp
+         CubismId.cpp
+         CubismIdManager.cpp
+         CubismMath.cpp
+         CubismMatrix44.cpp
+         CubismModelMatrix.cpp
+         CubismTargetPoint.cpp
+         CubismVector2.cpp
+         CubismViewMatrix.cpp
+         CubismMoc.cpp
+         CubismModel.cpp
+         CubismModelUserData.cpp
+         CubismModelUserDataJson.cpp
+         CubismUserModel.cpp
+         正在生成代码...
+         正在编译...
+         ACubismMotion.cpp
+         CubismExpressionMotion.cpp
+         CubismExpressionMotionManager.cpp
+         CubismMotion.cpp
+         CubismMotionJson.cpp
+         CubismMotionManager.cpp
+         CubismMotionQueueEntry.cpp
+         CubismMotionQueueManager.cpp
+         CubismPhysics.cpp
+         CubismPhysicsJson.cpp
+         CubismRenderer.cpp
+         CubismOffscreenSurface_OpenGLES2.cpp
+         CubismShader_OpenGLES2.cpp
+         CubismRenderer_OpenGLES2.cpp
+         csmRectF.cpp
+         csmString.cpp
+         CubismDebug.cpp
+         CubismJson.cpp
+         CubismString.cpp
+         正在生成代码...
+       Lib:
+         F:\visualstudio\VC\bin\x86_amd64\Lib.exe /OUT:"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\Framework\Debug\Framework.lib" /NOLOGO /MACHINE:X64  /machine:x64 Framework.dir\Debug\CubismCdiJson.obj
+         Framework.dir\Debug\CubismDefaultParameterId.obj
+         Framework.dir\Debug\CubismFramework.obj
+         Framework.dir\Debug\CubismModelSettingJson.obj
+         Framework.dir\Debug\CubismBreath.obj
+         Framework.dir\Debug\CubismEyeBlink.obj
+         Framework.dir\Debug\CubismPose.obj
+         Framework.dir\Debug\CubismId.obj
+         Framework.dir\Debug\CubismIdManager.obj
+         Framework.dir\Debug\CubismMath.obj
+         Framework.dir\Debug\CubismMatrix44.obj
+         Framework.dir\Debug\CubismModelMatrix.obj
+         Framework.dir\Debug\CubismTargetPoint.obj
+         Framework.dir\Debug\CubismVector2.obj
+         Framework.dir\Debug\CubismViewMatrix.obj
+         Framework.dir\Debug\CubismMoc.obj
+         Framework.dir\Debug\CubismModel.obj
+         Framework.dir\Debug\CubismModelUserData.obj
+         Framework.dir\Debug\CubismModelUserDataJson.obj
+         Framework.dir\Debug\CubismUserModel.obj
+         Framework.dir\Debug\ACubismMotion.obj
+         Framework.dir\Debug\CubismExpressionMotion.obj
+         Framework.dir\Debug\CubismExpressionMotionManager.obj
+         Framework.dir\Debug\CubismMotion.obj
+         Framework.dir\Debug\CubismMotionJson.obj
+         Framework.dir\Debug\CubismMotionManager.obj
+         Framework.dir\Debug\CubismMotionQueueEntry.obj
+         Framework.dir\Debug\CubismMotionQueueManager.obj
+         Framework.dir\Debug\CubismPhysics.obj
+         Framework.dir\Debug\CubismPhysicsJson.obj
+         Framework.dir\Debug\CubismRenderer.obj
+         Framework.dir\Debug\CubismOffscreenSurface_OpenGLES2.obj
+         Framework.dir\Debug\CubismShader_OpenGLES2.obj
+         Framework.dir\Debug\CubismRenderer_OpenGLES2.obj
+         Framework.dir\Debug\csmRectF.obj
+         Framework.dir\Debug\csmString.obj
+         Framework.dir\Debug\CubismDebug.obj
+         Framework.dir\Debug\CubismJson.obj
+         Framework.dir\Debug\CubismString.obj
+         Framework.vcxproj -> F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\Framework\Debug\Framework.lib
+     1>已完成生成项目“F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\Framework\Framework.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.67

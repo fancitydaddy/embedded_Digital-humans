@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppDefine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppWavFileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppLive2DManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppPal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppSprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppTextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\TouchManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppAllocator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppDefine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppDelegate.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppWavFileHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppLive2DManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppPal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppSprite.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppTextureManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\TouchManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{EFF72B35-6197-38FF-BEF9-44DB0FF2260A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{16337355-3F70-3DDC-9D1C-6F48D8D35992}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+﻿生成启动时间为 2024/6/18 21:40:03。
+     1>项目“F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\Demo.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         F:\visualstudio\VC\bin\x86_amd64\CL.exe /c /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\..\..\..\..\Samples\OpenGL\thirdParty\stb" /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Framework\src" /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\..\..\..\..\Samples\OpenGL\thirdParty\glew\include" /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\thirdParty\glfw\include" /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\..\..\..\..\Core\include" /Zi /nologo /W1 /WX- /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CSM_TARGET_WIN_GL /D GLEW_STATIC /D "CMAKE_INTDIR=\"Debug\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Demo.dir\Debug\\" /Fd"Demo.dir\Debug\vc140.pdb" /Gd /TP /errorReport:prompt "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppAllocator.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppDefine.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppDelegate.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppWavFileHandler.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppLive2DManager.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppModel.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppPal.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppSprite.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppTextureManager.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\LAppView.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\main.cpp" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\src\TouchManager.cpp"
+         LAppAllocator.cpp
+         LAppDefine.cpp
+         LAppDelegate.cpp
+         LAppWavFileHandler.cpp
+         LAppLive2DManager.cpp
+         LAppModel.cpp
+         LAppPal.cpp
+         LAppSprite.cpp
+         LAppTextureManager.cpp
+         LAppView.cpp
+         main.cpp
+         TouchManager.cpp
+       Link:
+         F:\visualstudio\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\bin\Demo\Debug\Demo.exe" /INCREMENTAL /NOLOGO Framework\Debug\Framework.lib glfw\src\Debug\glfw3.lib opengl32.lib glu32.lib "-NODEFAULTLIB:libcmtd.lib" "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\..\..\..\..\Core\lib\windows\x86_64\140\Live2DCubismCore_MTd.lib" lib\Debug\libglew32d.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:/live2d/CubismSdkForNative-5-r.1/CubismSdkForNative-5-r.1/Samples/OpenGL/Demo/proj.win.cmake/build/proj_msvc2015_x64_mt/bin/Demo/Debug/Demo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/live2d/CubismSdkForNative-5-r.1/CubismSdkForNative-5-r.1/Samples/OpenGL/Demo/proj.win.cmake/build/proj_msvc2015_x64_mt/Debug/Demo.lib" /MACHINE:X64  /machine:x64 Demo.dir\Debug\LAppAllocator.obj
+         Demo.dir\Debug\LAppDefine.obj
+         Demo.dir\Debug\LAppDelegate.obj
+         Demo.dir\Debug\LAppWavFileHandler.obj
+         Demo.dir\Debug\LAppLive2DManager.obj
+         Demo.dir\Debug\LAppModel.obj
+         Demo.dir\Debug\LAppPal.obj
+         Demo.dir\Debug\LAppSprite.obj
+         Demo.dir\Debug\LAppTextureManager.obj
+         Demo.dir\Debug\LAppView.obj
+         Demo.dir\Debug\main.obj
+         Demo.dir\Debug\TouchManager.obj
+         Demo.vcxproj -> F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\bin\Demo\Debug\Demo.exe
+       PostBuildEvent:
+         setlocal
+         F:\Cmake\bin\cmake.exe -E copy_directory F:/live2d/CubismSdkForNative-5-r.1/CubismSdkForNative-5-r.1/Samples/OpenGL/Demo/proj.win.cmake/../../../../Samples/Resources F:/live2d/CubismSdkForNative-5-r.1/CubismSdkForNative-5-r.1/Samples/OpenGL/Demo/proj.win.cmake/build/proj_msvc2015_x64_mt/bin/Demo/Debug/Resources
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>已完成生成项目“F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\Demo.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.26

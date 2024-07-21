@@ -1,0 +1,16 @@
+﻿生成启动时间为 2024/6/18 21:39:59。
+     1>项目“F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\glew\glew_s.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\visualstudio\VC\bin\x86_amd64\CL.exe /c /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\thirdParty\glew\build\cmake\..\..\include" /Zi /nologo /W1 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D GLEW_STATIC /D VC_EXTRALEAN /D GLEW_NO_GLU /D "CMAKE_INTDIR=\"Debug\"" /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"glew_s.dir\Debug\\" /Fd"glew_s.dir\Debug\glew_s.pdb" /Gd /TC /errorReport:prompt "F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\thirdParty\glew\src\glew.c"
+         glew.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _DEBUG /D _WINDOWS /D GLEW_STATIC /D VC_EXTRALEAN /D GLEW_NO_GLU /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\thirdParty\glew\build\cmake\..\..\include" /nologo /fo"glew_s.dir\Debug\glew.res" F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\thirdParty\glew\build\glew.rc 
+       Lib:
+         F:\visualstudio\VC\bin\x86_amd64\Lib.exe /OUT:"F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\lib\Debug\libglew32d.lib" /NOLOGO /MACHINE:X64  /machine:x64 glew_s.dir\Debug\glew.res
+         glew_s.dir\Debug\glew.obj
+         glew_s.vcxproj -> F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\lib\Debug\libglew32d.lib
+     1>已完成生成项目“F:\live2d\CubismSdkForNative-5-r.1\CubismSdkForNative-5-r.1\Samples\OpenGL\Demo\proj.win.cmake\build\proj_msvc2015_x64_mt\glew\glew_s.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.90

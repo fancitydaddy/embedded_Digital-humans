@@ -6,6 +6,7 @@
 #include <sndfile.h>
 #include <fstream>  
 #include <ctime>
+#include "asr_llm_tts.h"
 // 百度ASR配置
 const std::string ASR_APP_ID = "87144823";
 const std::string ASR_API_KEY = "lL2cjPgr40CBqr6MwyjkMOEi";
@@ -151,7 +152,7 @@ bool textToSpeech(const std::string& text, const std::string& outputFile) {
     }
     return false;
 }
-/*void time_now()
+void time_now()
 {
     
     std::time_t now = std::time(nullptr);
@@ -162,27 +163,91 @@ bool textToSpeech(const std::string& text, const std::string& outputFile) {
     // 打印时间戳
     std::cout << "当前时间: " << std::asctime(localTime);
     
-}*/
+}
+
+bool playAudio(const std::string& audioFile) {
+    SNDFILE* file;
+    SF_INFO sfinfo;
+    PaStream* stream;
+    PaError err;
+    
+    file = sf_open(audioFile.c_str(), SFM_READ, &sfinfo);
+    if (!file) {
+        std::cerr << "Error opening audio file: " << audioFile << std::endl;
+        return false;
+    }
+
+    err = Pa_Initialize();
+    if (err != paNoError) {
+        std::cerr << "PortAudio error: " << Pa_GetErrorText(err) << std::endl;
+        sf_close(file);
+        return false;
+    }
+
+    err = Pa_OpenDefaultStream(&stream, 0, sfinfo.channels, paFloat32, sfinfo.samplerate, paFramesPerBufferUnspecified, nullptr, nullptr);
+    if (err != paNoError) {
+        std::cerr << "PortAudio error: " << Pa_GetErrorText(err) << std::endl;
+        Pa_Terminate();
+        sf_close(file);
+        return false;
+    }
+
+    err = Pa_StartStream(stream);
+    if (err != paNoError) {
+        std::cerr << "PortAudio error: " << Pa_GetErrorText(err) << std::endl;
+        Pa_CloseStream(stream);
+        Pa_Terminate();
+        sf_close(file);
+        return false;
+    }
+
+    const int bufferSize = 1024;
+    float buffer[bufferSize];
+    sf_count_t framesRead;
+
+    while ((framesRead = sf_readf_float(file, buffer, bufferSize / sfinfo.channels)) > 0) {
+        err = Pa_WriteStream(stream, buffer, framesRead);
+        if (err != paNoError) {
+            std::cerr << "PortAudio error: " << Pa_GetErrorText(err) << std::endl;
+            break;
+        }
+    }
+
+    err = Pa_StopStream(stream);
+    if (err != paNoError) {
+        std::cerr << "PortAudio error: " << Pa_GetErrorText(err) << std::endl;
+    }
+
+    Pa_CloseStream(stream);
+    Pa_Terminate();
+    sf_close(file);
+    
+    return true;
+}
 
 int main() {
-    //time_now();
+    time_now();
     std::string asrToken = getBaiduASRToken();
     std::string inputAudio = "input.wav";  // 输入音频文件路径
     std::string outputAudio = "output.wav";  // 输出音频文件路径
-    //time_now();
+    time_now();
     // 1. ASR: 语音转文本
     std::string text = speechToText(asrToken, inputAudio);
     std::cout << "识别到的文本: " << text << std::endl;
-    //time_now();
+    time_now();
     // 2. LLM: 生成回复文本
     std::string responseText = getLLMResponse(text);
     std::cout << "LLM生成的回复: " << responseText << std::endl;
-    //time_now();
+    time_now();
     // 3. TTS: 文本转语音
     if (textToSpeech(responseText, outputAudio)) {
         std::cout << "合成的语音已保存到: " << outputAudio << std::endl;
+        if (playAudio(outputAudio)) {  // 播放生成的语音文件
+            std::cout << "音频播放成功" << std::endl;
+        } else {
+            std::cerr << "音频播放失败" << std::endl;
+        }
     }
 
-  
     return 0;
 }

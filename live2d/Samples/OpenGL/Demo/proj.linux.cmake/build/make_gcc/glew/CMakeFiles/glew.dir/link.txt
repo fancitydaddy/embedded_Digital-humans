@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libGLEW.so.2.2 -o ../lib/libGLEW.so.2.2.0 CMakeFiles/glew.dir/media/work/live2d/Samples/OpenGL/thirdParty/glew/src/glew.c.o  -lGL -lGLU -lX11 -lXext 
